@@ -198,19 +198,8 @@ The API was tested successfully using **Postman**.
 
 ## Postman Test Result
 
-Add the screenshot below after creating a folder named **screenshots**.
+<img width="1920" height="1080" alt="Screenshot (236)" src="https://github.com/user-attachments/assets/79adbbc0-c79e-436f-8b02-bbba9224f227" />
 
-```
-screenshots/postman-success.png
-```
-
-Then use:
-
-```markdown
-![API Test](screenshots/postman-success.png)
-```
-
----
 
 ## Author
 
