@@ -1,2 +1,49 @@
-# asset-depreciation-api
-A RESTful API built with Node.js and Express.js to calculate yearly asset depreciation using the Straight-Line Depreciation method.
+# Asset Depreciation API
+
+## Tech Stack
+
+- Node.js
+- Express.js
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run the project
+
+```bash
+npm run dev
+```
+
+## API Endpoint
+
+POST `/api/calculate_asset_depreciation`
+
+### Request
+
+```json
+{
+  "costOfAsset": 100000,
+  "salvageValue": 20000,
+  "duration": 5
+}
+```
+
+### Response
+
+```json
+{
+  "costOfAsset": 100000,
+  "salvageValue": 20000,
+  "duration": 5,
+  "depreciationSchedule": [
+    {
+      "year": 1,
+      "depreciationAmount": 16000,
+      "endBookValue": 84000
+    }
+  ]
+}
+```
